@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 100vh;
+    background-color: hsl(268, 75%, 9%);
+}
+
+p{
+    color: yellow;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.opcao{
+    background-color: hsl(268, 71%, 12%);
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+article{
+   background-color: hsl(268, 70%, 15%);
+   border-radius: 10px;
+}
+
+aside{
+    margin-bottom: 20px;
+}
+input{
+    width: 500px;
+    height: 100px;
+    width: 510px;
+    border: none;
+    background-color: hsl(268, 70%, 15%);
+    text-align: end;
+    font-size: 50px;
+    border-radius: 10px;
+    color: yellow;
+}
+input::placeholder{
+    color: yellow;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+    background-color: hsl(268, 60%, 20%);
+    color: yellow;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px hsl(281, 89%, 26%);
+}
+button:hover{
+    background-color: hsl(281, 90%, 30%);
+}
+
+.del{
+    color: white;
+}
+.reset, .igual{
+    width: 215px;
+    color: white;   
+}
+.ultimosBTNS{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.reset, .del{
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0px 3px hsl(281, 89%, 26%);
+}
+.reset:hover{
+    background-color: hsl(281, 90%, 30%);
+}
+.del:hover{
+    background-color: hsl(281, 90%, 30%);
+}
+.igual:hover{
+    background-color: hsl(176, 100%, 50%);
+}
+.igual{
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 3px hsl(177, 92%, 70%);
+    color: hsl(268, 47%, 21%);
+}
